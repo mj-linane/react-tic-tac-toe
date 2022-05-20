@@ -36,7 +36,7 @@
     ]
   },
   "devDependencies": {
-    "prettier": "2.6.0"
+    "prettier": "2.6.2"
   },
   "main": "index.js",
   "author": "MJ Linane <19750620+mj-linane@users.noreply.github.com>",
