@@ -6,13 +6,15 @@ import App from "./App";
 
 const rootElement = document.getElementById("root");
 
-if (rootElement !== null) {
+if (rootElement !== null)
+{
   const root = createRoot(rootElement);
   root.render(
     <StrictMode>
       <App />
     </StrictMode>
   );
-} else {
+} else
+{
   console.error("No element with id 'root' found in the document.");
 }
